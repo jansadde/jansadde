@@ -1,0 +1,2 @@
+Local source snapshot, 2026-11-09. Base commit: 77188ffeacc3dbb7bb6dbad2975a20cbf6a34a66
+Includes uncommitted portfolio updates and the SPROUT showcase. This snapshot has not been pushed or deployed. Source repository DNS is unavailable. Latest checks: TypeScript and production build pass; 36 public rendering checks and 75 model checks pass. Latest visual browser check blocked because localhost is stopped and this environment denies opening a listening socket. Owner database and uploaded private files are excluded.

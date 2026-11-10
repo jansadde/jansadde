@@ -1,0 +1,916 @@
+[
+  {
+    "id": "source-results",
+    "title": "LVMH — Full year 2025 results published January 27 2026",
+    "url": "https://www.lvmh.com/en/publications/solid-performance-in-a-disrupted-global-economic-and-geopolitical-environment",
+    "publisher": "LVMH",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary results release. Watches & Jewelry revenue is €10,577m in 2024 and €10,486m in 2025; recurring operating profit is €1,546m and €1,514m. These are segment figures, not Tiffany-only accounts.",
+    "fileIds": [
+      "c7ba14de-1db8-478e-8ad1-7747f3345615",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 1
+  },
+  {
+    "id": "source-history",
+    "title": "LVMH — History",
+    "url": "https://www.lvmh.com/our-group/history",
+    "publisher": "LVMH",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary corporate history supports the 2021 acquisition of Tiffany and its 1837 New York origin. It supports ownership context, not a quantified AI effect.",
+    "fileIds": [
+      "a6ccc848-8d8f-447e-aa3b-719572b2f3a3",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 2
+  },
+  {
+    "id": "source-model",
+    "title": "LVMH — Our model",
+    "url": "https://www.lvmh.com/en/our-group/our-model",
+    "publisher": "LVMH",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary statement of autonomy at Maison level. Relevant to decentralization; it does not disclose the reporting structure of Tiffany departments or KazakhYuvelir.",
+    "fileIds": [
+      "19fc1196-6b0c-4226-a62a-9042b8383a64",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 3
+  },
+  {
+    "id": "source-lvmh",
+    "title": "LVMH — official website",
+    "url": "https://www.lvmh.com/",
+    "publisher": "LVMH",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Citation needs detail",
+    "note": "Corporate homepage only. The report titles used in Weeks 1–2 are not uniquely traceable through this citation. Replace with a named publication or the relevant company page; do not treat the homepage as an AI case study.",
+    "fileIds": [
+      "94bcedb5-594d-4cb5-85fb-6aa00e34f5f0",
+      "b45b5702-5e7e-4991-b396-e3213bc5c702",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "7527dd3a-234f-4895-8f3a-71c38fb47fa1"
+    ],
+    "isPublic": true,
+    "position": 4
+  },
+  {
+    "id": "source-impact",
+    "title": "Tiffany — 2025 Impact Reporting",
+    "url": "https://media.tiffany.com/is/content/Tiffany/2025_Sustainability_Report_Addendum",
+    "publisher": "Tiffany & Co.",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary self-reported supplement. Printed page 19 reports 19.5 average training hours, a two-year registered apprenticeship and performance/development reviews. It supports the workforce comparison, not a causal claim about graduate employability.",
+    "fileIds": [
+      "f4b6ff69-bbb9-44de-8446-cc5657e25f0d",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 5
+  },
+  {
+    "id": "source-care",
+    "title": "Tiffany — Client Care",
+    "url": "https://www.tiffany.com/client-services.html",
+    "publisher": "Tiffany & Co.",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary evidence of advisor-led virtual appointments and customer assistance. A remote human appointment is not proof of AR try-on or generative AI. Useful replacement for the unavailable holiday-services link.",
+    "fileIds": [
+      "f9ca7dd4-215c-4557-ae8e-bd031f05d894",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "dcb312b6-8a6a-49bd-901f-8876da6d69dc",
+      "ee7b795e-633c-4b67-a92b-000deca18b7f",
+      "c278f9c8-bdea-4dba-8188-c66ac3fb7cf2"
+    ],
+    "isPublic": true,
+    "position": 6
+  },
+  {
+    "id": "source-privacy",
+    "title": "Tiffany — Global Privacy Notice",
+    "url": "https://www.tiffany.com/policy/privacy-policy.html",
+    "publisher": "Tiffany & Co.",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Official notice is dated August 1, 2026. It documents stated collection, use and customer choices; it does not verify a particular IT architecture or certify its effectiveness.",
+    "fileIds": [
+      "006cc7b7-b726-4ed8-ae99-41f162a59340",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 7
+  },
+  {
+    "id": "source-holiday",
+    "title": "Tiffany — Holiday Services original link",
+    "url": "https://www.tiffany.com/client-services/holiday-services.html",
+    "publisher": "Tiffany & Co.",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Historical / unavailable",
+    "note": "The supplied URL returned 404 in this review. Keep it in the audit trail, but replace it with the current Client Care page for the virtual-appointment claim; do not mark this URL as verified.",
+    "fileIds": [
+      "d4ad16ed-7f75-4eae-91e8-534389b2bf89",
+      "06519254-dabf-45fe-8821-18247f45268e",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 8
+  },
+  {
+    "id": "source-personal",
+    "title": "Tiffany — Personalization",
+    "url": "https://www.tiffany.com/client-services/personalization.html",
+    "publisher": "Tiffany & Co.",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary service page supports personalization and engraving on eligible pieces. It demonstrates a service benchmark, not AI deployment or a measured increase in conversion.",
+    "fileIds": [
+      "b2de6b02-1595-4d12-8f44-34b9133bb8dc",
+      "356dcfdb-8c01-45de-845a-c6dad47689f6",
+      "d4ad16ed-7f75-4eae-91e8-534389b2bf89",
+      "06519254-dabf-45fe-8821-18247f45268e",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "dcb312b6-8a6a-49bd-901f-8876da6d69dc",
+      "ee7b795e-633c-4b67-a92b-000deca18b7f",
+      "c278f9c8-bdea-4dba-8188-c66ac3fb7cf2"
+    ],
+    "isPublic": true,
+    "position": 9
+  },
+  {
+    "id": "source-repair",
+    "title": "Tiffany — Product Services",
+    "url": "https://www.tiffany.com/client-services/care-and-repair/request-a-service.html",
+    "publisher": "Tiffany & Co.",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary service page supports cleaning, repair and fit alterations. It is relevant to after-sales care, not evidence that an automated system can make final authenticity or sizing decisions.",
+    "fileIds": [
+      "b2de6b02-1595-4d12-8f44-34b9133bb8dc",
+      "356dcfdb-8c01-45de-845a-c6dad47689f6",
+      "d4ad16ed-7f75-4eae-91e8-534389b2bf89",
+      "06519254-dabf-45fe-8821-18247f45268e",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "ee7b795e-633c-4b67-a92b-000deca18b7f",
+      "c278f9c8-bdea-4dba-8188-c66ac3fb7cf2"
+    ],
+    "isPublic": true,
+    "position": 10
+  },
+  {
+    "id": "source-trace",
+    "title": "Tiffany — Traceability and Craft",
+    "url": "https://www.tiffany.com/world-of-tiffany/sustainability/diamond-sourcing-traceability.html",
+    "publisher": "Tiffany & Co.",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary account of diamond provenance and manufacturing. Distinguishes the 2019 origin initiative from the 2020 craft-journey disclosure. Does not establish AI conversion gains, a Kazakh workflow or universal coverage of every stone.",
+    "fileIds": [
+      "c64bfbc6-11b2-466a-a41a-41a23cddf61b",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 11
+  },
+  {
+    "id": "source-ring-builder",
+    "title": "Tiffany — engagement-ring customization (original citation)",
+    "url": "https://www.tiffany.com/engagement/tiffany-difference/engagement-ring-customization",
+    "publisher": "Tiffany & Co.",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Historical / unavailable",
+    "note": "Original link from the Business Report Appendix. Its current page could not be retrieved. The supplied historical interface does not establish current AI or AR use.",
+    "fileIds": [
+      "c3390d8a-7b6c-4cc9-bb50-6bd03ea6dd53"
+    ],
+    "isPublic": true,
+    "position": 12
+  },
+  {
+    "id": "source-tiffany",
+    "title": "Tiffany — official website",
+    "url": "https://www.tiffany.com/",
+    "publisher": "Tiffany & Co.",
+    "group": "Tiffany & LVMH",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Broad primary starting point. Prefer the exact client-service page for consultation, personalization or repair claims. The homepage does not identify a specific AI system.",
+    "fileIds": [
+      "d4ad16ed-7f75-4eae-91e8-534389b2bf89",
+      "06519254-dabf-45fe-8821-18247f45268e",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "dcb312b6-8a6a-49bd-901f-8876da6d69dc",
+      "ab9c64bc-8cbb-4272-8c84-8dc28d058fd5"
+    ],
+    "isPublic": true,
+    "position": 13
+  },
+  {
+    "id": "source-about",
+    "title": "KazakhYuvelir — About Us",
+    "url": "https://kazakhyuvelir.kz/en/about",
+    "publisher": "KazakhYuvelir",
+    "group": "KazakhYuvelir",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Company-reported profile lists 18 salons in 15 cities, more than 250 team members and over 50 jewelers. Useful self-reported scale evidence; it is not an independently audited operating report.",
+    "fileIds": [
+      "a6ccc848-8d8f-447e-aa3b-719572b2f3a3",
+      "f4b6ff69-bbb9-44de-8446-cc5657e25f0d",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "c3390d8a-7b6c-4cc9-bb50-6bd03ea6dd53",
+      "ee7b795e-633c-4b67-a92b-000deca18b7f",
+      "c278f9c8-bdea-4dba-8188-c66ac3fb7cf2"
+    ],
+    "isPublic": true,
+    "position": 14
+  },
+  {
+    "id": "source-catalog",
+    "title": "KazakhYuvelir — English website and catalog",
+    "url": "https://kazakhyuvelir.kz/en",
+    "publisher": "KazakhYuvelir",
+    "group": "KazakhYuvelir",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary customer-facing catalog. Suitable for checking live product specifications; product prices and availability are changeable and require a date. Not evidence of internal CRM or AR deployment.",
+    "fileIds": [
+      "d4ad16ed-7f75-4eae-91e8-534389b2bf89",
+      "06519254-dabf-45fe-8821-18247f45268e",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 15
+  },
+  {
+    "id": "source-collections",
+    "title": "KazakhYuvelir — Jewelry Collections",
+    "url": "https://kazakhyuvelir.kz/en/collections",
+    "publisher": "KazakhYuvelir",
+    "group": "KazakhYuvelir",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary evidence of cultural themes and everyday collections. Does not confirm a launched collection called Casual & Modern Ethno or the proposed 18–35 demographic.",
+    "fileIds": [
+      "f9ca7dd4-215c-4557-ae8e-bd031f05d894",
+      "d4ad16ed-7f75-4eae-91e8-534389b2bf89",
+      "06519254-dabf-45fe-8821-18247f45268e",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "dcb312b6-8a6a-49bd-901f-8876da6d69dc"
+    ],
+    "isPublic": true,
+    "position": 16
+  },
+  {
+    "id": "source-kazprivacy",
+    "title": "KazakhYuvelir — Privacy Policy",
+    "url": "https://www.kazakhyuvelir.kz/legal/privacy",
+    "publisher": "KazakhYuvelir",
+    "group": "KazakhYuvelir",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Published privacy notice describes stated data practices. It is a policy statement, not a technical audit or proof that camera-based AR exists. Some detailed content is presented in expandable sections.",
+    "fileIds": [
+      "d4ad16ed-7f75-4eae-91e8-534389b2bf89",
+      "06519254-dabf-45fe-8821-18247f45268e",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "dcb312b6-8a6a-49bd-901f-8876da6d69dc",
+      "ab9c64bc-8cbb-4272-8c84-8dc28d058fd5"
+    ],
+    "isPublic": true,
+    "position": 17
+  },
+  {
+    "id": "source-production",
+    "title": "KazakhYuvelir — Production Process",
+    "url": "https://kazakhyuvelir.kz/en/about/production",
+    "publisher": "KazakhYuvelir",
+    "group": "KazakhYuvelir",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary description of design, 3D modeling, casting, finishing and quality control. It supports general workflow context, not imported-machine countries or the proposed AR process.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "ee7b795e-633c-4b67-a92b-000deca18b7f",
+      "c278f9c8-bdea-4dba-8188-c66ac3fb7cf2"
+    ],
+    "isPublic": true,
+    "position": 18
+  },
+  {
+    "id": "source-terms",
+    "title": "KazakhYuvelir — Terms and Conditions",
+    "url": "https://kazakhyuvelir.kz/legal",
+    "publisher": "KazakhYuvelir",
+    "group": "KazakhYuvelir",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Official terms identify the seller as JSC KazakhYuvelir. This supports the stated legal form, not assumptions about slow board approvals or internal delegation. Read as a company disclosure, not independent legal advice.",
+    "fileIds": [
+      "d4ad16ed-7f75-4eae-91e8-534389b2bf89",
+      "06519254-dabf-45fe-8821-18247f45268e",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 19
+  },
+  {
+    "id": "source-delivery",
+    "title": "KazakhYuvelir — delivery (original citation)",
+    "url": "https://kazakhyuvelir.kz/delivery",
+    "publisher": "KazakhYuvelir",
+    "group": "KazakhYuvelir",
+    "sourceType": "Company source",
+    "status": "Historical / unavailable",
+    "note": "Original delivery-page citation from the Business Report Appendix. The page could not be retrieved during this review; international delivery claims still need a specific accessible source.",
+    "fileIds": [
+      "c3390d8a-7b6c-4cc9-bb50-6bd03ea6dd53"
+    ],
+    "isPublic": true,
+    "position": 20
+  },
+  {
+    "id": "source-kaz",
+    "title": "KazakhYuvelir — official website",
+    "url": "https://kazakhyuvelir.kz/",
+    "publisher": "KazakhYuvelir",
+    "group": "KazakhYuvelir",
+    "sourceType": "Company source",
+    "status": "Source listed",
+    "note": "Primary company website for public products and services. Broad homepage references do not establish supplier origins, internal systems, demographic shares, export sales or delivery delays.",
+    "fileIds": [
+      "94bcedb5-594d-4cb5-85fb-6aa00e34f5f0",
+      "b45b5702-5e7e-4991-b396-e3213bc5c702",
+      "19fc1196-6b0c-4226-a62a-9042b8383a64",
+      "c64bfbc6-11b2-466a-a41a-41a23cddf61b",
+      "006cc7b7-b726-4ed8-ae99-41f162a59340",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "7527dd3a-234f-4895-8f3a-71c38fb47fa1",
+      "dcb312b6-8a6a-49bd-901f-8876da6d69dc",
+      "ab9c64bc-8cbb-4272-8c84-8dc28d058fd5"
+    ],
+    "isPublic": true,
+    "position": 21
+  },
+  {
+    "id": "source-statsnet",
+    "title": "Statsnet — KazakhYuvelir company profile",
+    "url": "https://statsnet.co/companies/kz/36431024",
+    "publisher": "Statsnet",
+    "group": "KazakhYuvelir",
+    "sourceType": "Secondary source",
+    "status": "Source listed",
+    "note": "Third-party company directory. Useful for registration context; it does not verify foreign suppliers, international expansion or current operating performance.",
+    "fileIds": [
+      "c3390d8a-7b6c-4cc9-bb50-6bd03ea6dd53"
+    ],
+    "isPublic": true,
+    "position": 22
+  },
+  {
+    "id": "source-ch10",
+    "title": "OpenStax — Chapter 10 Achieving World Class Operations Management",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/10-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 23
+  },
+  {
+    "id": "source-ch11",
+    "title": "OpenStax — Chapter 11 Creating Products and Pricing Strategies to Meet Customers Needs",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/11-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 24
+  },
+  {
+    "id": "source-ch12",
+    "title": "OpenStax — Chapter 12 Distributing and Promoting Products and Services",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/12-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 25
+  },
+  {
+    "id": "source-ch13",
+    "title": "OpenStax — Chapter 13 Using Technology to Manage Information",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/13-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "006cc7b7-b726-4ed8-ae99-41f162a59340",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 26
+  },
+  {
+    "id": "source-ch14",
+    "title": "OpenStax — Chapter 14 Using Financial Information and Accounting",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/14-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "c7ba14de-1db8-478e-8ad1-7747f3345615",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 27
+  },
+  {
+    "id": "source-ch16",
+    "title": "OpenStax — Chapter 16 Understanding Financial Management and Securities Markets",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/16-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "c7ba14de-1db8-478e-8ad1-7747f3345615",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 28
+  },
+  {
+    "id": "source-ch4",
+    "title": "OpenStax — Chapter 4 Forms of Business Ownership",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/4-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 29
+  },
+  {
+    "id": "source-ch5",
+    "title": "OpenStax — Chapter 5 Entrepreneurship Starting and Managing Your Own Business",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/5-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 30
+  },
+  {
+    "id": "source-ch6",
+    "title": "OpenStax — Chapter 6 Management and Leadership",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/6-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 31
+  },
+  {
+    "id": "source-ch7",
+    "title": "OpenStax — Chapter 7 Designing Organizational Structures",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/7-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 32
+  },
+  {
+    "id": "source-ch8",
+    "title": "OpenStax — Chapter 8 Managing Human Resources and Labor Relations",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/8-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 33
+  },
+  {
+    "id": "source-ch9",
+    "title": "OpenStax — Chapter 9 Motivating Employees",
+    "url": "https://openstax.org/books/introduction-business-2e/pages/9-introduction",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Verified chapter landing page. Use for the conceptual framework; cite the exact subsection used for a definition. It does not establish company-specific results. Where the original cites lecture slides, this public chapter is an additional access route, not proof of the slide version.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 34
+  },
+  {
+    "id": "source-book",
+    "title": "OpenStax — Introduction to Business",
+    "url": "https://openstax.org/details/books/introduction-business",
+    "publisher": "OpenStax",
+    "group": "Business & management",
+    "sourceType": "Textbook",
+    "status": "Source listed",
+    "note": "Textbook reference for concepts, not evidence of either company’s actual technology or performance. The original entries mix a 2e label, a 2018 date and an older landing URL; reconcile the edition with the course copy rather than carrying that combination forward.",
+    "fileIds": [
+      "94bcedb5-594d-4cb5-85fb-6aa00e34f5f0",
+      "b45b5702-5e7e-4991-b396-e3213bc5c702",
+      "19fc1196-6b0c-4226-a62a-9042b8383a64",
+      "c64bfbc6-11b2-466a-a41a-41a23cddf61b",
+      "f9ca7dd4-215c-4557-ae8e-bd031f05d894",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "7527dd3a-234f-4895-8f3a-71c38fb47fa1"
+    ],
+    "isPublic": true,
+    "position": 35
+  },
+  {
+    "id": "source-cpi",
+    "title": "Bureau of National Statistics — Prices dynamic tables",
+    "url": "https://stat.gov.kz/en/industries/economy/prices/dynamic-tables/?period=month",
+    "publisher": "Bureau of National Statistics",
+    "group": "Economy & industry",
+    "sourceType": "Institutional source",
+    "status": "Source listed",
+    "note": "More precise verification route for CPI data. Record the series, period, units and retrieval date; inflation alone does not establish jewelry buyers’ purchasing behavior.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 36
+  },
+  {
+    "id": "source-stats",
+    "title": "Bureau of National Statistics — official website",
+    "url": "https://stat.gov.kz/",
+    "publisher": "Bureau of National Statistics",
+    "group": "Economy & industry",
+    "sourceType": "Institutional source",
+    "status": "Citation needs detail",
+    "note": "Official statistical publisher, but a homepage does not identify the CPI series, observation month or table used. The listed publication title and 2026 date need a precise release citation.",
+    "fileIds": [
+      "94bcedb5-594d-4cb5-85fb-6aa00e34f5f0",
+      "b45b5702-5e7e-4991-b396-e3213bc5c702",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "7527dd3a-234f-4895-8f3a-71c38fb47fa1"
+    ],
+    "isPublic": true,
+    "position": 37
+  },
+  {
+    "id": "source-g20",
+    "title": "G20 South Africa — G20 Members",
+    "url": "https://www.g20.org.za/about-g20/g20-members/",
+    "publisher": "G20 South Africa",
+    "group": "Economy & industry",
+    "sourceType": "Institutional source",
+    "status": "Source listed",
+    "note": "Official membership page includes 19 countries, the European Union and the African Union. Correct the Week 2 definition that omits the African Union.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 38
+  },
+  {
+    "id": "source-dfo",
+    "title": "Kazakhstan Financial Reporting Depository — supplied reporting record",
+    "url": "https://opi.dfo.kz/ru/opi/list/278746076840000000/view?SelectedPluginId=11b5c074-0d41-45af-9943-1f7668662b7c&SelectedReportId=32536",
+    "publisher": "Financial Reporting Depository",
+    "group": "Economy & industry",
+    "sourceType": "Institutional source",
+    "status": "Citation needs detail",
+    "note": "Official depository link loads a dynamic record shell, but the underlying financial statement rows were not accessible in this review. Preserve it as a primary-source retrieval lead; do not label the numerical inputs primary-verified.",
+    "fileIds": [
+      "b2de6b02-1595-4d12-8f44-34b9133bb8dc",
+      "356dcfdb-8c01-45de-845a-c6dad47689f6",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 39
+  },
+  {
+    "id": "source-tourism",
+    "title": "Kazakhstan Travel — national tourism portal",
+    "url": "https://kazakhstan.travel/",
+    "publisher": "Kazakh Tourism",
+    "group": "Economy & industry",
+    "sourceType": "Institutional source",
+    "status": "Citation needs detail",
+    "note": "Broad tourism portal cited in the Business Report Appendix. The citation does not identify the exhibition or participation record described in the work.",
+    "fileIds": [
+      "c3390d8a-7b6c-4cc9-bb50-6bd03ea6dd53"
+    ],
+    "isPublic": true,
+    "position": 40
+  },
+  {
+    "id": "source-ai-strategy",
+    "title": "Kazakhstan’s new $16B AI strategy",
+    "url": "https://kz.kursiv.media/en/2026-06-10/engk-yeri-what-you-need-to-know-about-kazakhstans-new-16b-ai-strategy/",
+    "publisher": "Kursiv Media",
+    "group": "Economy & industry",
+    "sourceType": "Secondary source",
+    "status": "Source listed",
+    "note": "Yerlan Iskakov, Kursiv Media, 10 June 2026. National policy context; not evidence that KazakhYuvelir has deployed a particular AI system.",
+    "fileIds": [
+      "c3390d8a-7b6c-4cc9-bb50-6bd03ea6dd53"
+    ],
+    "isPublic": true,
+    "position": 41
+  },
+  {
+    "id": "source-jewellers",
+    "title": "League of Jewelers of Kazakhstan (original citation)",
+    "url": "https://jewellers.kz/",
+    "publisher": "League of Jewelers of Kazakhstan",
+    "group": "Economy & industry",
+    "sourceType": "Industry source",
+    "status": "Historical / unavailable",
+    "note": "URL supplied in the Business Report Appendix. The site and the cited industry report could not be verified; supplier-country and equipment claims remain unsupported.",
+    "fileIds": [
+      "c3390d8a-7b6c-4cc9-bb50-6bd03ea6dd53"
+    ],
+    "isPublic": true,
+    "position": 42
+  },
+  {
+    "id": "source-mti",
+    "title": "Ministry of Trade and Integration — official portal",
+    "url": "https://www.gov.kz/memleket/entities/mti",
+    "publisher": "Ministry of Trade and Integration",
+    "group": "Economy & industry",
+    "sourceType": "Institutional source",
+    "status": "Citation needs detail",
+    "note": "Government publisher cited in the Business Report. A portal link does not identify a jewelry-tagging regulation or establish the claimed delivery delays.",
+    "fileIds": [
+      "7527dd3a-234f-4895-8f3a-71c38fb47fa1"
+    ],
+    "isPublic": true,
+    "position": 43
+  },
+  {
+    "id": "source-nbk",
+    "title": "National Bank of Kazakhstan — official website",
+    "url": "https://nationalbank.kz/",
+    "publisher": "National Bank of Kazakhstan",
+    "group": "Economy & industry",
+    "sourceType": "Institutional source",
+    "status": "Citation needs detail",
+    "note": "Starting point for exchange rates and monetary-policy publications. The report does not identify a dated USD/KZT series or a specific Monetary Policy Report.",
+    "fileIds": [
+      "7527dd3a-234f-4895-8f3a-71c38fb47fa1"
+    ],
+    "isPublic": true,
+    "position": 44
+  },
+  {
+    "id": "source-gold",
+    "title": "World Gold Council — Goldhub",
+    "url": "https://www.gold.org/goldhub",
+    "publisher": "World Gold Council",
+    "group": "Economy & industry",
+    "sourceType": "Industry source",
+    "status": "Citation needs detail",
+    "note": "Gold-market research and data portal. Select a dated report, price series and observation period before using a numerical claim.",
+    "fileIds": [
+      "7527dd3a-234f-4895-8f3a-71c38fb47fa1"
+    ],
+    "isPublic": true,
+    "position": 45
+  },
+  {
+    "id": "source-wto",
+    "title": "World Trade Organization — Who we are",
+    "url": "https://www-server1.wto.org/english/thewto_e/whatis_e/who_we_are_e.htm",
+    "publisher": "World Trade Organization",
+    "group": "Economy & industry",
+    "sourceType": "Institutional source",
+    "status": "Source listed",
+    "note": "Official institutional source supports the 166-member description. This is an additional verification source, not an original Week 2 reference.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 46
+  },
+  {
+    "id": "source-kursiv",
+    "title": "Zh Mamyshev — KazakhYuvelir brought its owners more than one million dollars",
+    "url": "https://kz.kursiv.media/2026-10-12/zhnb-kazahyuvelir-prines-svoim-vladelczam-bolee-05-mlrd-tengge/",
+    "publisher": "Kursiv Media",
+    "group": "Economy & industry",
+    "sourceType": "Secondary source",
+    "status": "Source listed",
+    "note": "Secondary news report dated October 12, 2026 reports the revenue/profit inputs used in the practice and A4. Rounded revenues yield approximate margins and growth; this is not independent reconciliation to audited statements. The visible headline differs from the older title used in the essay.",
+    "fileIds": [
+      "b2de6b02-1595-4d12-8f44-34b9133bb8dc",
+      "356dcfdb-8c01-45de-845a-c6dad47689f6",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "ee7b795e-633c-4b67-a92b-000deca18b7f",
+      "c278f9c8-bdea-4dba-8188-c66ac3fb7cf2"
+    ],
+    "isPublic": true,
+    "position": 47
+  },
+  {
+    "id": "source-aim-home",
+    "title": "AIM Media House — official website",
+    "url": "https://aimmediahouse.com/",
+    "publisher": "AIM Media House",
+    "group": "AI & careers",
+    "sourceType": "Secondary source",
+    "status": "Citation needs detail",
+    "note": "The Business Report cites this homepage for an AI case study. The exact article title is incomplete; it is not primary evidence of Tiffany performance.",
+    "fileIds": [
+      "7527dd3a-234f-4895-8f3a-71c38fb47fa1"
+    ],
+    "isPublic": true,
+    "position": 48
+  },
+  {
+    "id": "source-ilo",
+    "title": "International Labour Organization — Generative AI and Jobs 2023",
+    "url": "https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and",
+    "publisher": "International Labour Organization",
+    "group": "AI & careers",
+    "sourceType": "Research",
+    "status": "Source listed",
+    "note": "Original exposure study supports a task-level discussion of augmentation and automation. It is not a guarantee that every entry-level job will remain or that all graduates benefit equally.",
+    "fileIds": [
+      "b2de6b02-1595-4d12-8f44-34b9133bb8dc",
+      "356dcfdb-8c01-45de-845a-c6dad47689f6",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 49
+  },
+  {
+    "id": "source-oecd",
+    "title": "OECD — Employment Outlook 2023 Artificial Intelligence and the Labour Market",
+    "url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en.html",
+    "publisher": "OECD",
+    "group": "AI & careers",
+    "sourceType": "Research",
+    "status": "Source listed",
+    "note": "Institutional analysis of AI and work supports skills and training arguments. Its international context does not establish company-specific outcomes or a guaranteed net benefit for graduates.",
+    "fileIds": [
+      "b2de6b02-1595-4d12-8f44-34b9133bb8dc",
+      "356dcfdb-8c01-45de-845a-c6dad47689f6",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 50
+  },
+  {
+    "id": "source-aim",
+    "title": "Sachin Mohan — How Tiffany and Co Is Using AI to Amplify Human Expertise Not Replace It",
+    "url": "https://aimmediahouse.com/retail/how-tiffany-co-is-using-ai-to-amplify-human-expertise-not-replace-it",
+    "publisher": "AIM Media House",
+    "group": "AI & careers",
+    "sourceType": "Secondary source",
+    "status": "Source listed",
+    "note": "Secondary article dated 11 December 2025, included in the source review as a possible match for incomplete AI citations. The match is not certain and the quoted performance figures lack a primary measurement record.",
+    "fileIds": [
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 51
+  },
+  {
+    "id": "source-gpts",
+    "title": "T Eloundou S Manning P Mishkin and D Rock — GPTs are GPTs 2023",
+    "url": "https://arxiv.org/abs/2303.10130",
+    "publisher": "Eloundou, Manning, Mishkin & Rock",
+    "group": "AI & careers",
+    "sourceType": "Research",
+    "status": "Source listed",
+    "note": "Original research assesses exposure of US occupations to LLM capabilities. Exposure is not observed job loss; the setting and method limit direct transfer to Kazakhstan graduate employment.",
+    "fileIds": [
+      "b2de6b02-1595-4d12-8f44-34b9133bb8dc",
+      "356dcfdb-8c01-45de-845a-c6dad47689f6",
+      "3208da20-f404-4d4f-ad27-87bed687f671"
+    ],
+    "isPublic": true,
+    "position": 52
+  },
+  {
+    "id": "source-wef",
+    "title": "World Economic Forum — The Future of Jobs Report 2025",
+    "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+    "publisher": "World Economic Forum",
+    "group": "AI & careers",
+    "sourceType": "Research",
+    "status": "Source listed",
+    "note": "Original employer-survey report about expected jobs and skills changes. Relevant to analytical and technological capabilities; employer expectations are not proof of actual outcomes for Kazakhstan business graduates.",
+    "fileIds": [
+      "b2de6b02-1595-4d12-8f44-34b9133bb8dc",
+      "356dcfdb-8c01-45de-845a-c6dad47689f6",
+      "3208da20-f404-4d4f-ad27-87bed687f671",
+      "ee7b795e-633c-4b67-a92b-000deca18b7f",
+      "c278f9c8-bdea-4dba-8188-c66ac3fb7cf2"
+    ],
+    "isPublic": true,
+    "position": 53
+  },
+  {
+    "id": "9b4768d1-dbaf-4945-8ac6-97d005fb23ce",
+    "title": "Meta-analysis of augmented reality and virtual reality in marketing",
+    "url": "https://doi.org/10.1108/EJM-08-2023-0659",
+    "publisher": "Barari, Ngo, Quach & Thaichon / Emerald Publishing",
+    "group": "AI & careers",
+    "sourceType": "Research",
+    "status": "Source listed",
+    "note": "Original AR/VR marketing meta-analysis, European Journal of Marketing 60(4), 932–964, 2026. Context-sensitive findings do not establish a KazakhYuvelir pilot result. Cited in the final presentation and Executive Summary Report.",
+    "fileIds": [
+      "ee7b795e-633c-4b67-a92b-000deca18b7f",
+      "c278f9c8-bdea-4dba-8188-c66ac3fb7cf2"
+    ],
+    "isPublic": true,
+    "position": 54
+  },
+  {
+    "id": "42f907d9-95fa-4b02-969f-cf968354093c",
+    "title": "Kazakhstan — On Personal Data and Their Protection",
+    "url": "https://adilet.zan.kz/eng/docs/Z1300000094",
+    "publisher": "Republic of Kazakhstan / Adilet",
+    "group": "Economy & industry",
+    "sourceType": "Institutional source",
+    "status": "Citation needs detail",
+    "note": "Official legal record cited as Law No. 94-V, 21 May 2013. The English text requires JavaScript and current amendments were not verified; obtain a current legal review before a camera-based pilot. The original works use old.adilet.zan.kz.",
+    "fileIds": [
+      "ee7b795e-633c-4b67-a92b-000deca18b7f",
+      "c278f9c8-bdea-4dba-8188-c66ac3fb7cf2"
+    ],
+    "isPublic": true,
+    "position": 55
+  }
+]

@@ -1,0 +1,2 @@
+import { requireAdmin, initialize, database, readJson, validateProfile, success, apiError } from '@/lib/server';
+export async function PUT(request:Request){try{await requireAdmin(request);const profile=validateProfile(await readJson(request));await initialize();await database().prepare("INSERT INTO settings (key,value) VALUES ('profile',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value").bind(JSON.stringify(profile)).run();return success({profile})}catch(e){return apiError(e)}}

@@ -1,0 +1,6 @@
+Mozilla PDF.js / pdfjs-dist 5.6.205
+Apache-2.0
+https://github.com/mozilla/pdf.js
+https://mozilla.github.io/pdf.js/
+Vendored from the preinstalled Codex workspace dependency runtime.
+Only local app assets are loaded; no document is sent to an external PDF viewer.

@@ -1,0 +1,2 @@
+import { requireAdmin,database,readJson,success,apiError,ApiError } from '@/lib/server';
+export async function PATCH(request:Request){try{await requireAdmin(request);const d=await readJson(request);if(typeof d.id!=='string')throw new ApiError(400,'Please select a message.');await database().prepare('UPDATE messages SET is_read=? WHERE id=?').bind(d.isRead===true?1:0,d.id).run();return success({ok:true})}catch(e){return apiError(e)}}

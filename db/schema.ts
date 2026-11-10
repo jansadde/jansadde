@@ -1,0 +1,7 @@
+import { sqliteTable, text, integer } from 'drizzle-orm/sqlite-core';
+export const settings = sqliteTable('settings', { key: text('key').primaryKey(), value: text('value').notNull() });
+export const entries = sqliteTable('entries', { id: text('id').primaryKey(), kind: text('kind').notNull(), data: text('data').notNull(), isPublic: integer('is_public').notNull().default(0), position: integer('position').notNull().default(0) });
+export const categories = sqliteTable('categories', { id: text('id').primaryKey(), name: text('name').notNull().unique() });
+export const documents = sqliteTable('documents', { id: text('id').primaryKey(), name: text('name').notNull(), description: text('description').notNull().default(''), categoryId: text('category_id'), size: integer('size').notNull(), mime: text('mime').notNull(), storageKey: text('storage_key').notNull(), isPublic: integer('is_public').notNull().default(0), isPhoto: integer('is_photo').notNull().default(0), projectId: text('project_id'), addedAt: text('added_at').notNull(), deletedAt: text('deleted_at') });
+export const messages = sqliteTable('messages', { id: text('id').primaryKey(), name: text('name').notNull(), email: text('email').notNull(), message: text('message').notNull(), createdAt: text('created_at').notNull(), isRead: integer('is_read').notNull().default(0) });
+export const rateLimits = sqliteTable('rate_limits', { key: text('key').primaryKey(), count: integer('count').notNull().default(1), expiresAt: integer('expires_at').notNull() });

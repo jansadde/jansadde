@@ -1,0 +1,424 @@
+{
+  "preparedOn": "10 November 2026",
+  "status": "Awaiting student review and signature",
+  "scope": "Prepared on 10 November 2026 from the submitted portfolio, the 17-slide Capstone presentation, the Executive Summary Report and AI tools confirmed by the student. Earlier A1/A2 materials describe structural and editorial support; A4 and Week 6/7 disclose drafting, analysis and calculations. The final Report and Deck disclose ChatGPT and Canva AI support. Capstone analysis is designated Level 3. Personal verification, signature and defence status remain unconfirmed.",
+  "details": [
+    {
+      "label": "Student name",
+      "value": "Sarsekbaeva Almagul"
+    },
+    {
+      "label": "Student ID",
+      "value": "260184"
+    },
+    {
+      "label": "Group",
+      "value": "AIB 2604"
+    },
+    {
+      "label": "Submission date",
+      "value": "To be confirmed"
+    },
+    {
+      "label": "Company A",
+      "value": "Tiffany & Co."
+    },
+    {
+      "label": "Company B",
+      "value": "JSC KazakhYuvelir"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "a",
+      "title": "AI systems register",
+      "intro": "Providers, known dates and the activities actually recorded.",
+      "columns": [
+        "AI system / model",
+        "Provider / version (if known)",
+        "Date(s) used",
+        "Capstone purpose(s)"
+      ],
+      "rows": [
+        [
+          "ChatGPT",
+          "OpenAI; GPT-6 stated in A4 Appendix; other model versions not recorded.",
+          "1 Nov 2026 stated in A4 Appendix; other dates not recorded.",
+          "Planning and drafting the Executive Summary Report; argument drafting, Week 6 marketing comparison, Week 7 governance framework and preliminary calculations."
+        ],
+        [
+          "Google Gemini",
+          "Google; model/version not recorded.",
+          "Earlier preparation dates not recorded.",
+          "Planning, structure, grammar and some fact-checking, jointly declared with ChatGPT in the A1 Appendix and video script. Exact task split not logged."
+        ],
+        [
+          "Codex",
+          "OpenAI; exact model/version not recorded in this form.",
+          "10 Nov 2026.",
+          "Website implementation, document organization, source catalog, Photo Essay Appendix and preparation of this declaration."
+        ],
+        [
+          "Canva AI",
+          "Canva; AI features confirmed by the student; exact feature/model not recorded.",
+          "Presentation supplied 10 Nov 2026; exact design-use dates not recorded.",
+          "AI-assisted presentation design. The exact split between layout, wording and generated assets still requires confirmation."
+        ]
+      ],
+      "paragraphs": []
+    },
+    {
+      "id": "b",
+      "title": "Level 3 activity register",
+      "intro": "Preparatory activities mapped to Capstone sections. Independent student verification remains pending where stated.",
+      "columns": [
+        "Section / deliverable",
+        "AI system",
+        "What I used AI to do",
+        "Independent verification",
+        "Final decision: accepted / adapted / rejected + change made"
+      ],
+      "rows": [
+        [
+          "B1  Section 1\nBusiness context",
+          "ChatGPT / Gemini; exact earlier task split not logged.",
+          "Help organize the company comparison and English wording in preparatory work.",
+          "Official profile and legal pages reviewed in the source audit; student recheck pending. EF source-about, source-terms.",
+          "ADAPTED: use the current company-reported 18 salons; do not retain the unsupported 30+ count."
+        ],
+        [
+          "B2  Section 2\nEnvironment and stakeholders",
+          "ChatGPT / Gemini; jointly declared editorial support.",
+          "Structure environmental pressures and stakeholder/ethics discussion.",
+          "Source audit found no exact regulation or data for the 3–5-day delay and 80–90% grey-market claims.",
+          "REJECTED as established facts: unsupported delay and market-share figures. Exact legal and statistical evidence still needed."
+        ],
+        [
+          "B3  Section 3\nBusiness model",
+          "ChatGPT / Gemini; exact contribution split not recorded.",
+          "Organize ownership, value proposition and transfer judgments.",
+          "Legal form checked against company terms. No source establishes slow board decisions or measured AI outcomes.",
+          "ADAPTED: distinguish JSC legal form from assumed internal behavior; present digital tools as proposals."
+        ],
+        [
+          "B4  Section 4\nHuman AI operating model",
+          "ChatGPT / Gemini in script disclosure; exact split not recorded.",
+          "Structure the video script and describe allocation, escalation and fallback.",
+          "Compare Week 4/7 workflow and script; student final consistency review pending.",
+          "ADAPTED: separate AI-generated drafts from AR visual overlays; AR is not intrinsically AI. Retain human review and manual fallback."
+        ],
+        [
+          "B5  Section 5a\nOperations and supply chain",
+          "ChatGPT / Gemini; earlier support not separated by task.",
+          "Help present process changes and proposed operational KPIs.",
+          "No measured company baseline or pilot result supplied for conversion, returns or inventory.",
+          "ADAPTED: label targets as assumptions; obtain baseline, costs and test evidence before investment."
+        ],
+        [
+          "B6  Section 5b\nMarketing and customer",
+          "ChatGPT, explicitly identified in Week 6.",
+          "Draft alternative promotional copy and assist the comparison rubric.",
+          "Compare wording with official catalog; both preliminary rubric totals are 21/25. No A/B test conducted.",
+          "ADAPTED: remove unverified new-launch/scarcity wording; retain human creative direction and factual review."
+        ],
+        [
+          "B7  Section 5c\nWorkforce and careers",
+          "ChatGPT, identified in A4 Appendix.",
+          "Summarize Week 8/9 material, draft the counterargument and discuss capabilities.",
+          "WEF, ILO, OECD and original exposure research reviewed as contextual evidence. Student reading still required.",
+          "ADAPTED: task exposure is not job loss; avoid a guaranteed employment benefit for all graduates."
+        ],
+        [
+          "B8  Section 6\nGovernance and assurance",
+          "ChatGPT for Week 7; Codex for source audit and indexing.",
+          "Draft risk/response structure; extract references and identify incomplete citations.",
+          "Compare policy/service statements with the proposed workflow; source lookup is AI-assisted, not proof of student verification.",
+          "ADAPTED: consent, human escalation and fallback remain proposed controls; policy publication is not a technical audit."
+        ],
+        [
+          "B9  Sections 7 and 8\nBusiness case and roadmap",
+          "ChatGPT preliminary ratios; ChatGPT/Canva in final deck; Codex verification.",
+          "Draft financial logic and present phased decisions, KPI assumptions and a 12-month roadmap.",
+          "Recomputed the deck’s illustrative budget/ROI and earlier rounded-input ratios. Vendor quotes, company baselines and student recalculation remain pending.",
+          "ADAPTED: use conditional catalogue-first / AR-later gates. The roadmap is supplied; its costs and targets are student assumptions, not approved company results."
+        ]
+      ],
+      "paragraphs": []
+    },
+    {
+      "id": "c",
+      "title": "Section coverage check",
+      "intro": "AI support in preparatory work is distinguished from confirmed final Capstone use.",
+      "columns": [
+        "Capstone section",
+        "AI used?",
+        "Part B row(s)",
+        "Notes / verification reference"
+      ],
+      "rows": [
+        [
+          "§1 Business context",
+          "Yes in preparation; final coverage to confirm",
+          "B1",
+          "A1 structure and company-source review."
+        ],
+        [
+          "§2 Environment & stakeholders",
+          "Yes in preparation; final coverage to confirm",
+          "B2",
+          "Unsupported quantitative/regulatory claims flagged."
+        ],
+        [
+          "§3 Business model",
+          "Yes in preparation; final coverage to confirm",
+          "B3",
+          "Separate legal ownership from inferred behavior."
+        ],
+        [
+          "§4 Human–AI operating model",
+          "Yes in preparation; final coverage to confirm",
+          "B4",
+          "Proposed allocation, review, escalation and fallback."
+        ],
+        [
+          "§5a Operations & supply chain",
+          "Yes in preparation; final coverage to confirm",
+          "B5",
+          "Targets require baseline and pilot validation."
+        ],
+        [
+          "§5b Marketing & customer",
+          "Yes in preparation; final coverage to confirm",
+          "B6",
+          "Week 6 explicitly discloses ChatGPT."
+        ],
+        [
+          "§5c Workforce & career capability",
+          "Yes in preparation; final coverage to confirm",
+          "B7",
+          "A4 explicitly discloses ChatGPT."
+        ],
+        [
+          "§6 Governance, verification & assurance",
+          "Yes in preparation; final coverage to confirm",
+          "B8",
+          "Week 7 and the source audit."
+        ],
+        [
+          "§7 Business case & KPIs / §8 Roadmap",
+          "Yes in preparation and AI-supported deck",
+          "B9",
+          "Deck slides 11–14 and 16 provide a proposed case, KPIs, roadmap and stress test; student review pending."
+        ]
+      ],
+      "paragraphs": []
+    },
+    {
+      "id": "d",
+      "title": "Business case KPI and assumption verification",
+      "intro": "Arithmetic checks do not replace verification of the underlying financial statements.",
+      "columns": [
+        "Assumption / number / KPI",
+        "Source or Evidence Folder reference",
+        "Independent verification method",
+        "Verified result / correction",
+        "Where used"
+      ],
+      "rows": [
+        [
+          "KazakhYuvelir revenue and profit, 2024–2025",
+          "A4 Appendix; EF source-kursiv and source-dfo.",
+          "Compare rounded news inputs with original statements; primary line-by-line check pending.",
+          "Revenue ≈ KZT 5,400m / 6,100m; net profit 484.5m / 528.4m. Secondary inputs, not primary-verified.",
+          "Section 7 / A4."
+        ],
+        [
+          "Net profit margins",
+          "A4 Appendix; EF source-kursiv.",
+          "Recompute profit ÷ revenue × 100; reproduced in Codex; student recalculation pending.",
+          "2024: 8.97%; 2025: 8.66%; change ≈ −0.31 percentage points. Approximate rounded-input ratios.",
+          "Section 7 / A4."
+        ],
+        [
+          "Revenue and profit growth",
+          "A4 discrepancy audit; EF source-kursiv.",
+          "Recompute year-on-year growth from rounded inputs; request unrounded revenues.",
+          "Revenue 12.96% versus 13.8% reported; profit 9.06%. Rounding may explain the revenue difference.",
+          "Section 7 / A4."
+        ],
+        [
+          "Final pilot KPI hypotheses",
+          "Capstone slides 8, 9 and 12.",
+          "Measure control baseline; define denominator and error severity; pre-register the A/B method and sample size.",
+          "+8% relative conversion is provisional; ≥98% copy accuracy and <2% geometry failures are proposed targets, not achieved results.",
+          "Sections 5, 7 and 8."
+        ],
+        [
+          "Year-1 cost and base case",
+          "Capstone slide 11; illustrative student estimates.",
+          "Sum 1.5 + 5.5 + 2.4 + 1.2 + 1.8; compute 90 × 28,000 × 6; recalculate ROI.",
+          "Cost KZT 12.4m; contribution 15.12m; net 2.72m; ROI ≈ 21.9%. Inputs need vendor and margin evidence.",
+          "Section 7."
+        ],
+        [
+          "Downside, upside and cost sensitivity",
+          "Capstone slides 11 and 16.",
+          "Recompute at 40 / 90 / 150 incremental orders per month and at 25% higher cost.",
+          "ROI ≈ −45.8% / 21.9% / 103.2%. Cost +25% gives ≈ −2.5%; break-even ≈74 incremental orders per selling month.",
+          "Business-case stress test."
+        ],
+        [
+          "Earlier conversion/returns and Tiffany performance claims",
+          "A1/A2; Capstone slides 5 and 15; EF source-aim.",
+          "Compare early wording with final deck and source limits.",
+          "12% conversion, 18% returns and Tiffany +25% are unsupported baselines. Early +15% / −20% targets are proposals, not measured outcomes.",
+          "Retraction log / comparison."
+        ]
+      ],
+      "paragraphs": []
+    },
+    {
+      "id": "e",
+      "title": "AI error and correction log",
+      "intro": "Documented weaknesses and how they change the interpretation or recommendation.",
+      "columns": [
+        "AI system / activity",
+        "What was wrong or weak",
+        "How I detected it",
+        "Evidence used",
+        "Correction and effect on final recommendation"
+      ],
+      "rows": [
+        [
+          "AI-assisted comparison and source audit",
+          "Tiffany service pages were treated as proof of the proposed AI/AR system.",
+          "Compare the precise claims with service-page scope.",
+          "EF source-care, source-personal and source-repair.",
+          "Reject the inference. Use human-guided service as the benchmark; AR remains a separate, unverified proposal."
+        ],
+        [
+          "ChatGPT preliminary finance analysis",
+          "Profit growth could imply improved efficiency; revenue growth differs across rounded figures.",
+          "Recompute margin and growth from the stated inputs.",
+          "A4 Appendix; EF source-kursiv and source-dfo.",
+          "Use approximate ratios, explain the 12.96% / 13.8% discrepancy, and retain the primary-statement verification limit."
+        ],
+        [
+          "AI-assisted marketing draft and rubric",
+          "New collection / limited stock wording is not verified; a rubric score could be mistaken for market evidence.",
+          "Compare copy with the catalog and identify what the rubric measured.",
+          "Week 6 comparison; EF source-collections.",
+          "Use concept wording; both texts scored 21/25 in a preliminary judgment. No sales or A/B-test result claimed."
+        ],
+        [
+          "Codex citation audit",
+          "Incomplete report titles, a 404 holiday link and unsupported regulation/delay claims.",
+          "Read document references, follow precise official links and classify unresolved citations.",
+          "Evidence Folder; EF source-holiday, source-mti and source-care.",
+          "Keep historical URLs labelled; use current Client Care for advisor support; exclude unsupported figures from confirmed evidence."
+        ]
+      ],
+      "paragraphs": []
+    },
+    {
+      "id": "f",
+      "title": "Visual and media disclosure",
+      "intro": "Media provenance and the scope of AI support are recorded without inventing authorship.",
+      "columns": [
+        "Visual / media + location",
+        "AI system",
+        "Generated / edited / other",
+        "Labelled on visual? Yes / No",
+        "Verification / attribution notes"
+      ],
+      "rows": [
+        [
+          "Photo Essay slides and company screenshots",
+          "Original image-generation tools not recorded; ChatGPT support recorded for related copy.",
+          "Supplied slide archive; image provenance incomplete.",
+          "Not fully confirmed; label any AI-generated visual before submission.",
+          "Slide 11 bibliography reviewed. Historical sketch/building images lack complete author/asset attribution."
+        ],
+        [
+          "Video Essay and website video copy",
+          "ChatGPT/Gemini for script support; Codex for technical preparation.",
+          "Existing supplied video; Codex changed encoding/size only.",
+          "Original visual labels not confirmed.",
+          "Script assistance is disclosed; technical re-encoding is not generative image editing. Media-origin check remains with student."
+        ],
+        [
+          "Week 6 AI-supported marketing copy and comparison",
+          "ChatGPT.",
+          "AI-generated alternative wording and AI-assisted rubric judgments.",
+          "Identified as AI-supported in Week 6; check labels on final slides.",
+          "Retain the student’s human-only text separately. Scores are analytical judgments, not consumer-test findings."
+        ],
+        [
+          "Personal website photographs and source-page assets",
+          "No generative image tool used in this website update.",
+          "User-provided photographs; existing company visuals displayed with source context.",
+          "Not applicable to this update’s original user photos.",
+          "No new AI-generated photograph is claimed. External company-image provenance should remain attributed."
+        ],
+        [
+          "Final Capstone presentation",
+          "ChatGPT and Canva AI, confirmed; exact Canva feature not recorded.",
+          "AI-assisted structure/drafting and visual design; asset-by-asset generation status not supplied.",
+          "Not confirmed; identify and label any AI-generated visuals on the slide.",
+          "Slide 15 discloses AI support. Cover-photo source/license is not supplied. Original slide 13 has a clipped right-hand table column."
+        ]
+      ],
+      "paragraphs": []
+    },
+    {
+      "id": "g",
+      "title": "Cross deliverable consistency check",
+      "intro": "",
+      "columns": [],
+      "rows": [],
+      "paragraphs": [
+        "The Report, Deck and Video state the same core recommendation for Company B. Status: the supplied Executive Summary Report and final Deck both prioritize catalogue quality before a gated AR pilot. The earlier A2 AR-first script still requires a final cross-deliverable consistency check.",
+        "Any AI-supported content carried across components was independently rechecked for consistency. Status: student confirmation pending; source review identified differences between the early AR-first proposal and the later cautious pilot.",
+        "The 12-month roadmap contains action, owner, KPI baseline/target, dependency, cost basis, risk/control and decision point. Status: these fields are present in the Deck’s proposed roadmap. Budgets, company baselines, source-slide clipping and management approval still require confirmation.",
+        "The governance position covers privacy, security, bias, reliability, accountability, escalation and fallback. Status: addressed as proposals in Week 7; implementation and final coverage require confirmation.",
+        "All Capstone sources and IEEE references are checked. Status: the Deck’s nine external references are indexed in Evidence Folder, including the AR meta-analysis and personal-data law. Primary finance verification, legal currency and final submission checks remain pending."
+      ]
+    },
+    {
+      "id": "h",
+      "title": "Reflection on AI supported judgment",
+      "intro": "",
+      "columns": [],
+      "rows": [],
+      "paragraphs": [
+        "The most important AI-supported contribution to my analysis was\nOrganizing the company comparison, marketing alternatives and Human–AI workflow, and making financial assumptions easier to question. The source review helps separate company facts from proposed improvements.",
+        "The most important AI error limitation or unsupported output I found was\nA confident source citation or calculation can look stronger than its evidence. Tiffany service pages do not prove an AI/AR system; rounded revenues do not justify an exact growth claim; proposed targets are not measured results.",
+        "What I changed in my recommendation after verification\nThe final Deck prioritizes verified catalogue data and human-reviewed bilingual AI descriptions, then makes opt-in AR conditional on consent, visual QA and a fair experiment. I would scale only after the measured incremental contribution exceeds fully loaded cost.",
+        "What remains uncertain before committing to the recommendation\nThe original financial statement, measured conversion/return baselines, vendor quotes, contribution per order, test traffic and sample size, legal review, full media attribution and approval of the proposed roadmap. I still need to complete personal verification before signing."
+      ]
+    },
+    {
+      "id": "i",
+      "title": "Defence and live stress test acknowledgement",
+      "intro": "",
+      "columns": [],
+      "rows": [],
+      "paragraphs": [
+        "Individual defence and the live strategic transfer stress test are designated AI-use Level 1 in the supplied form: no AI assistance.",
+        "Student acknowledgement and commitment to answer from personal knowledge remain unsigned.",
+        "Post-defence confirmation of no AI assistance remains unconfirmed; no completed defence is asserted."
+      ]
+    },
+    {
+      "id": "final",
+      "title": "Final declaration",
+      "intro": "",
+      "columns": [],
+      "rows": [],
+      "paragraphs": [
+        "The original final declaration and personal confirmation boxes are retained in the document for the student to review and sign after completing the pending checks.",
+        "Student signature: not signed. Signature date: not confirmed. This record does not certify completion of personal verification or the defence."
+      ]
+    }
+  ]
+}

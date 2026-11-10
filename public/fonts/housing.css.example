@@ -1,0 +1,10 @@
+/* Activate only after obtaining a Housing webfont license covering your domain.
+   Add your licensed Housing.woff2 here, rename this file housing.css, and add
+   <link rel="stylesheet" href="/fonts/housing.css" /> in app/layout.tsx. */
+@font-face {
+  font-family: 'Housing';
+  src: url('/fonts/Housing.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
