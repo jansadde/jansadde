@@ -1,0 +1,6 @@
+{
+  "framework": "nextjs",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "functions": { "app/api/admin/documents/finalize/route.ts": { "maxDuration": 60 } }
+}

@@ -24,10 +24,13 @@ await build({
   platform: 'node',
   format: 'esm',
   bundle: true,
-  define: { 'import.meta.env.DEV': 'false' },
+  define: { 'import.meta.env.DEV': 'false','process.env.DATABASE_URL':'"fixture://database"','process.env.SUPABASE_SECRET_KEY':'"fixture-storage"','process.env.ADMIN_EMAIL':'"fixture-owner@example.test"' },
   plugins: [{
     name: 'offline-fixtures',
     setup(builder) {
+      builder.onResolve({filter:/^\.\/database$/},()=>({path:'postgres-fixture',namespace:'offline-fixtures'}));
+      builder.onResolve({filter:/^\.\/supabase\/admin$/},()=>({path:'storage-fixture',namespace:'offline-fixtures'}));
+      builder.onLoad({filter:/^(postgres-fixture|storage-fixture)$/,namespace:'offline-fixtures'},({path})=>({loader:'js',contents:path==='postgres-fixture'?"export const postgresDatabase={prepare(...v){return globalThis[Symbol.for('personal-atelier.offline-model.env')].DB.prepare(...v)},batch(...v){return globalThis[Symbol.for('personal-atelier.offline-model.env')].DB.batch(...v)}};":"export const supabaseBucket={get(...v){return globalThis[Symbol.for('personal-atelier.offline-model.env')].BUCKET.get(...v)},put(...v){return globalThis[Symbol.for('personal-atelier.offline-model.env')].BUCKET.put(...v)},delete(...v){return globalThis[Symbol.for('personal-atelier.offline-model.env')].BUCKET.delete(...v)}};"}));
       builder.onResolve({ filter: /^cloudflare:workers$/ }, () => ({ path: 'workers', namespace: 'offline-fixtures' }));
       builder.onResolve({ filter: /^@\/app\/chatgpt-auth$/ }, () => ({ path: 'auth', namespace: 'offline-fixtures' }));
       builder.onLoad({ filter: /.*/, namespace: 'offline-fixtures' }, ({ path }) => ({

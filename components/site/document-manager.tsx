@@ -1,5 +1,6 @@
 'use client';
 import { useId, useRef, useState } from 'react';
+import { browserStorage } from '@/lib/supabase/browser';
 import { FileImage, FileText, FolderOpen, Search, X } from 'lucide-react';
 import type { ArchiveFile, Category, Entry } from '@/lib/types';
 import { FilePreview, fileDate, fileSize, fileType, fileUrl } from './documents';
@@ -24,6 +25,16 @@ const REPORT_MIMES = ['application/pdf', 'application/msword', 'application/vnd.
 const IMAGE_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp', 'gif'];
 function extension(file: File) { return file.name.split('.').pop()?.toLowerCase() || ''; }
 async function requestFiles(method: 'POST' | 'PATCH' | 'DELETE', body: FormData | object) {
+  if(method==='POST'&&body instanceof FormData){
+    const file=body.get('file');if(!(file instanceof File))throw new Error('Please select a file.');
+    const tokenResponse=await fetch('/api/admin/uploads',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({extension:extension(file)})});
+    const signed=await tokenResponse.json();if(!tokenResponse.ok)throw new Error(signed.error||'Unable to start upload.');
+    const {error}=await browserStorage().storage.from('portfolio-vault').uploadToSignedUrl(signed.path,signed.token,file,{contentType:file.type||'application/octet-stream'});if(error)throw error;
+    const metadata:Record<string,string>={path:signed.path,originalName:file.name,mime:file.type};
+    for(const [key,value] of body.entries())if(typeof value==='string')metadata[key]=value;
+    const saved=await fetch('/api/admin/documents/finalize',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify(metadata)});
+    const result=await saved.json();if(!saved.ok)throw new Error(result.error||'The file could not be saved.');return;
+  }
   const response = await fetch('/api/admin/documents', {
     method, credentials: 'same-origin',
     headers: body instanceof FormData ? undefined : { 'Content-Type': 'application/json' },

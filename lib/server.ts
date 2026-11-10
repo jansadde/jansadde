@@ -1,16 +1,17 @@
 import { defaultAttestations, attestationIds } from './attestations';
 import { defaultDeclarationEntry } from './declaration';
 import { defaultReferences, publishedReferences, referenceGroups, referenceTypes, referenceStatuses, referenceUrlKey } from './references';
-import { env } from 'cloudflare:workers';
+import { postgresDatabase } from './database';
+import { supabaseBucket } from './supabase/admin';
 import { getChatGPTUser } from '@/app/chatgpt-auth';
 import { aboutContentRevision, aboutPhotoFields, academicContentRevision, contentRevision, defaultCategories, defaultCompanyEntries, defaultCapstoneEntry, defaultEntries, defaultLegacyEntries, defaultProfile, defaultProtectedCategories, defaultSproutProject, protectedCategoryIds } from './defaults';
 import type { AdminData, ArchiveFile, Category, Entry, Portfolio, Profile, SourceReference, DeclarationContent } from './types';
 export class ApiError extends Error { constructor(public status: number, message: string) { super(message); } }
-export function database() { if (!env.DB) throw new ApiError(503,'The database is temporarily unavailable.'); return env.DB; }
-export function bucket() { if (!env.BUCKET) throw new ApiError(503,'File storage is temporarily unavailable.'); return env.BUCKET; }
+export function database() { if (!process.env.SUPABASE_SECRET_KEY) throw new ApiError(503,'The database is temporarily unavailable.'); return postgresDatabase; }
+export function bucket() { if (!process.env.SUPABASE_SECRET_KEY) throw new ApiError(503,'File storage is temporarily unavailable.'); return supabaseBucket; }
 export async function isAdmin() {
   const user = await getChatGPTUser();
-  const email = env.ADMIN_EMAIL || (import.meta.env.DEV ? 'seedy@sites.test' : '');
+  const email = process.env.ADMIN_EMAIL || 'almasarsekbaeva@yandex.com';
   return Boolean(user && email && user.email.toLowerCase() === email.toLowerCase());
 }
 export async function requireAdmin(request?: Request) {

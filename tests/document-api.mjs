@@ -53,9 +53,12 @@ await build({
     resolveDir: root, sourcefile: 'document-api-entry.ts',
   },
   outfile: resolve(directory, 'handlers.mjs'), platform: 'node', format: 'esm', bundle: true,
-  define: { 'import.meta.env.DEV': 'false' },
+  define: { 'import.meta.env.DEV': 'false','process.env.DATABASE_URL':'"fixture://database"','process.env.SUPABASE_SECRET_KEY':'"fixture-storage"','process.env.ADMIN_EMAIL':'"fixture-owner@example.test"' },
   plugins: [{ name: 'isolated-document-api-fixtures', setup(builder) {
-    builder.onResolve({ filter: /^cloudflare:workers$/ }, () => ({ path: 'env', namespace: 'document-fixture' }));
+    builder.onResolve({filter:/^\.\/database$/},()=>({path:'postgres-fixture',namespace:'document-fixture'}));
+      builder.onResolve({filter:/^\.\/supabase\/admin$/},()=>({path:'storage-fixture',namespace:'document-fixture'}));
+      builder.onLoad({filter:/^(postgres-fixture|storage-fixture)$/,namespace:'document-fixture'},({path})=>({loader:'js',contents:path==='postgres-fixture'?"export const postgresDatabase={prepare(...v){return globalThis[Symbol.for('personal-atelier.document-api.env')].DB.prepare(...v)},batch(...v){return globalThis[Symbol.for('personal-atelier.document-api.env')].DB.batch(...v)}};":"export const supabaseBucket={get(...v){return globalThis[Symbol.for('personal-atelier.document-api.env')].BUCKET.get(...v)},put(...v){return globalThis[Symbol.for('personal-atelier.document-api.env')].BUCKET.put(...v)},delete(...v){return globalThis[Symbol.for('personal-atelier.document-api.env')].BUCKET.delete(...v)}};"}));
+      builder.onResolve({ filter: /^cloudflare:workers$/ }, () => ({ path: 'env', namespace: 'document-fixture' }));
     builder.onResolve({ filter: /^@\/app\/chatgpt-auth$/ }, () => ({ path: 'user', namespace: 'document-fixture' }));
     builder.onLoad({ filter: /.*/, namespace: 'document-fixture' }, ({ path }) => ({ loader: 'js', contents: path === 'env'
       ? "export const env = globalThis[Symbol.for('personal-atelier.document-api.env')];"

@@ -14,12 +14,14 @@ The main navigation is:
 6. Evidence Folder.
 7. Capstone Project.
 8. Weekly Reports.
+9. Attestations.
+10. AI Declaration.
 
 Education, Achievements, and the former Photographs section are removed from active pages, menus, footer, and dashboard. Their old stored records are preserved without reappearing in the interface. Old biography/contact, assignment, archive, governance, and weekly-record URLs redirect to the current relevant pages.
 
 Home displays **Sarsekbaeva Almagul**, **AIB 2604**, and the owner-supplied portrait, the larger E PORTFOLIO label, and no Get in touch link. The footer retains the first version’s subsection directory without the large conversation heading, and contains separate clickable links for `almasarsekbaeva@yandex.com` and `260184@astanait.edu.kz`.
 
-About Me is managed in **Owner dashboard / About Me**. It contains the owner’s supplied jewelry story and six photographs, all editable through the dashboard. The carousel advances every three seconds, with Pause/Play, Previous/Next, direct position buttons, keyboard navigation, and touch swipes. It pauses during hover, focus, or a hidden tab and respects reduced motion. The public About Me page has no Edit link. Upload images in All Documents, publish them, then select them for each slot. Artifacts and Evidence Folder keep file search, preview, and downloads without category tabs. Weekly Reports starts with four records. Older weekly slots 5–9 and their files stay stored without appearing in the active list.
+About Me is managed in **Owner dashboard / About Me**. It contains the owner’s supplied jewelry story and six photographs, all editable through the dashboard. The carousel advances every three seconds, with Pause/Play, Previous/Next, direct position buttons, keyboard navigation, and touch swipes. It pauses during hover, focus, or a hidden tab and respects reduced motion. The public About Me page has no Edit link. Upload images in All Documents, publish them, then select them for each slot. Artifacts and Evidence Folder keep file search, preview, and downloads without category tabs. Weekly Reports contains all nine weekly slots, also linked from the footer.
 
 Times New Roman is used across the website and dashboard, with slightly heavier text. It uses the device’s installed font, with Times and the system serif as fallbacks.
 
@@ -61,30 +63,19 @@ Small diamonds appear on every page and major record/profile block. Each instanc
 
 The font stacks use Times New Roman throughout the interface, following the owner’s latest request. No proprietary font binaries are distributed. Earlier open-font assets remain in the source for compatibility. See `ASSETS.md`.
 
-## Local launch in VS Code
+## Local launch and Vercel
 
-Use Node.js **22.13 or later**. In the project directory, for a fresh source download:
+Use Node.js 24. Install with `npm ci`, copy `.env.example` to `.env.local`, and set the Supabase URL, publishable key, server-only secret key and owner email. Never commit `.env.local`.
 
-```sh
-npm run install:ci
-npm run build
-```
+Run `npm run dev` and open http://localhost:5173. Build with `npm run build`; production uses `npm start`.
 
-Apply this migration **once to a new local database only**:
+Vercel uses the repository root, the Next.js preset, `npm ci`, `npm run build`, and the default output directory. Add the same environment variables in Vercel, excluding the localhost site URL. Optionally set `NEXT_PUBLIC_SITE_URL` to the production origin.
 
-```sh
-node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_heavy_cobalt_man.sql
-```
+Supabase stores the existing content in PostgreSQL and files in the private `portfolio-vault` bucket. Apply `supabase/schema.sql` to a new project, then `supabase/rpc.sql`. The latter registers only the application's fixed, parameterized statements; public and authenticated clients cannot execute these functions. If prepared SQL changes, run `node scripts/prepare-supabase-rpc.mjs` and apply the regenerated migration. The server uses the secret key; no database password is needed.
 
-Start development:
+The owner signs in at `/sign-in` using a confirmed Supabase Auth account matching `ADMIN_EMAIL`. Client-supplied identity headers grant no access. Uploads go directly to private storage through short-lived signed upload tokens, followed by server validation; this supports the existing 20 MB limit on Vercel.
 
-```sh
-npm run dev -- --host 127.0.0.1 --port 5173
-```
-
-Open `http://127.0.0.1:5173/`; the dashboard is `http://127.0.0.1:5173/admin`. Subsequent launches need only the development command. Local sign-in uses the starter's loopback-only development account and is not included in production.
-
-The original Vinext/React/TypeScript, D1, R2, and Sites authentication architecture is preserved. Existing local and hosted databases are separate. No new SQL migration is required for this update; versioned initialization extends the existing JSON records without deleting owner data.
+Historical Cloudflare configuration is retained for reference. The `cloudflare-before-vercel` branch preserves the previous implementation. Runtime commands now use native Next.js.
 
 ## Verification
 
@@ -102,10 +93,6 @@ The suites contain 75 model checks, 48 actual API-handler scenarios, 25 document
 Browser QA also checked all ten public routes at mobile width, mobile/desktop layouts, varied diamond timings, the real weekly upload interface, private PDF upload/download, single- and multi-page PDF rendering and pagination, and deletion into trash. The two temporary browser-test PDFs were private and were moved to local trash after testing; no demo documents are published.
 
 The earlier `tests/integration.mjs` and `tests/upload-formats.mjs` are historical scripts using retired academic fixtures. Use the current suites above instead.
-
-## Hosting state
-
-The existing Site ID, audience, storage bindings, and owner secret are preserved. Publication requires access to the existing source repository. The current environment could not resolve that repository host, so this update is available locally and in the source archive; it has not replaced the earlier hosted version. Do not infer publication from a successful local build.
 
 ## All Project showcase
 

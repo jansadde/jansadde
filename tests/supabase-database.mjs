@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {build} from 'esbuild';
+import {createHash} from 'node:crypto';
+const calls=[];globalThis.__rpc=async(name,args)=>{calls.push({name,args});return {data:name==='portfolio_batch'?[[],[{id:'second'}]]:[{id:'first'}],error:null};};
+const built=await build({entryPoints:['lib/database.ts'],bundle:true,platform:'node',format:'esm',write:false,plugins:[{name:'rpc-fixture',setup(b){b.onResolve({filter:/supabase\/admin$/},()=>({path:'fixture',namespace:'rpc'}));b.onLoad({filter:/.*/,namespace:'rpc'},()=>({contents:'export function supabaseAdmin(){return {rpc:(...args)=>globalThis.__rpc(...args)}}'}));}}]});
+const {postgresDatabase:db}=await import('data:text/javascript;base64,'+Buffer.from(built.outputFiles[0].text).toString('base64'));
+const sql='SELECT * FROM entries WHERE id=?';const malicious="$1 '); DROP TABLE entries; --";
+assert.deepEqual(await db.prepare(sql).bind(malicious).first(),{id:'first'});
+assert.equal(calls[0].args.query_id,createHash('sha256').update(sql).digest('hex'));
+assert.deepEqual(calls[0].args.parameters,[malicious]);assert.ok(!JSON.stringify(calls[0]).includes(sql));
+assert.deepEqual(await db.prepare(sql).bind(null).all(),{results:[{id:'first'}]});
+assert.deepEqual(await db.batch([db.prepare(sql).bind('a'),db.prepare(sql).bind('b')]),[{results:[],success:true},{results:[{id:'second'}],success:true}]);
+assert.equal(calls.at(-1).name,'portfolio_batch');assert.equal(calls.at(-1).args.commands.length,2);
+globalThis.__rpc=async()=>({data:null,error:new Error('Database unavailable')});await assert.rejects(db.prepare(sql).first(),/Database unavailable/);
+console.log('8 Supabase database transport checks passed.');
